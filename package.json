@@ -1,0 +1,41 @@
+{
+  "name": "otus-homework-07",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . && prettier --check .",
+    "lint:fix": "eslint . --fix && prettier --write .",
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elenafilippova/otus-homework-07.git"
+  },
+  "author": "Elena Filippova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elenafilippova/otus-homework-07/issues"
+  },
+  "homepage": "https://github.com/elenafilippova/otus-homework-07#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.9",
+    "@types/jest": "^26.0.24",
+    "babel-jest": "^27.0.6",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jest": "^24.4.0",
+    "husky": "^7.0.2",
+    "jest": "^27.0.6",
+    "lint-staged": "^11.1.2",
+    "prettier": "2.3.2"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix",
+    "*.{js,css,md,json,yml,html}": "prettier --write"
+  }
+}
