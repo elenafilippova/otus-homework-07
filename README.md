@@ -1,4 +1,5 @@
-Курс: https://otus.ru/lessons/javascript-basic/?int_source=courses_catalog&int_term=programming
+Курс:
+https://otus.ru/lessons/javascript-basic/?int_source=courses_catalog&int_term=programming
 
 Домашняя работа для урока номер 7.
 
